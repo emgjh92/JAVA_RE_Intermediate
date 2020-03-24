@@ -38,7 +38,15 @@ public class STM {
 				System.out.println("나이를 입력해 주세요");
 				System.out.print("입력 > ");
 				String temp = scn.nextLine();
-				int age = Integer.parseInt(temp); // 입력받은 나이를 int형으로 파싱
+				
+				int age = 0;
+				
+				try {
+					age = Integer.parseInt(temp); // 입력받은 나이를 int형으로 파싱
+				}catch(Exception e) {
+					//파싱 시 문자열 등을 넣어서 Exception 이 나온다면 예외처리
+					System.out.println("정수를 입력헤 주세요. ERROR CODE = 100011");
+				}
 				
 				System.out.println("점수를 입력해 주세요");
 				System.out.print("입력 > ");
