@@ -3,9 +3,9 @@ package useclass;
 public class Main {
 	public static void main(String[] args) {
 /*
-static ë³€ìˆ˜(ì •ì  ë³€ìˆ˜) ëŠ” ë¶„ëª… global ë³€ìˆ˜(ì „ì—­ ë³€ìˆ˜) ì™€ëŠ” ë‹¤ë¥´ë‹¤.
-í•˜ì§€ë§Œ, !!Java ì–¸ì–´ í•œì •ìœ¼ë¡œ!! staticì„ í™œìš©í•˜ì—¬ ì „ì—­ë³€ìˆ˜ì˜ ì—­í• ì„ ìˆ˜í–‰ í•˜ë¯€ë¡œ,
-static = global ë³€ìˆ˜ ë¼ê³  ì´í•´í•  ìˆ˜ ìˆë‹¤.
+static º¯¼ö(Á¤Àû º¯¼ö) ´Â ºĞ¸í global º¯¼ö(Àü¿ª º¯¼ö) ¿Í´Â ´Ù¸£´Ù.
+ÇÏÁö¸¸, !!Java ¾ğ¾î ÇÑÁ¤À¸·Î!! staticÀ» È°¿ëÇÏ¿© Àü¿ªº¯¼öÀÇ ¿ªÇÒÀ» ¼öÇà ÇÏ¹Ç·Î,
+static = global º¯¼ö ¶ó°í ÀÌÇØÇÒ ¼ö ÀÖ´Ù.
 */
 		new STMContorller(new STMModel()).run();
 	}
