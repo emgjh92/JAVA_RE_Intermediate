@@ -6,12 +6,12 @@ public class LowCoupling {
 
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
-		//¸¸¾à¿¡ ArrayList ¿¡¼­ ¸ğµâÀ» LinkedList ·Î ¹Ù²Ù°í ½Í´Ù¸é?
-		//List<String> list = new LinkedList<String>(); ·Î¸¸ ³·Ãß¸é µÈ´Ù ==> !!!!!!³·Àº °áÇÕµµ!!!!!!!
-		//ÀÌ°ÍÀÌ ¹Ù·Î ÀÎÅÍÆäÀÌ½ºÀÇ ÃÖ´ë ÀåÁ¡ÀÌ´Ù. (Ç¥ÁØÀÎ List ·Î ¼±¾ğ ÇØ ³ù±â ¶§¹®¿¡ ÃÖ¼ÒÇÑÀÇ ÄÚµå ¼öÁ¤À¸·Î ¸ğµâÀÌ ½Ï ¹Ù²ï´Ù)
+		//ë§Œì•½ì— ArrayList ì—ì„œ ëª¨ë“ˆì„ LinkedList ë¡œ ë°”ê¾¸ê³  ì‹¶ë‹¤ë©´?
+		//List<String> list = new LinkedList<String>(); ë¡œë§Œ ë§ì¶”ë©´ ëœë‹¤ ==> !!!!!!ë‚®ì€ ê²°í•©ë„!!!!!!!
+		//ì´ê²ƒì´ ë°”ë¡œ ì¸í„°í˜ì´ìŠ¤ì˜ ìµœëŒ€ ì¥ì ì´ë‹¤. (í‘œì¤€ì¸ List ë¡œ ì„ ì–¸ í•´ ë†¨ê¸° ë•Œë¬¸ì— ìµœì†Œí•œì˜ ì½”ë“œ ìˆ˜ì •ìœ¼ë¡œ ëª¨ë“ˆì´ ì‹¹ ë°”ë€ë‹¤)
 		
 		List<String> list2 = new ArrayList<>();
-		//===> µÚÀÇ String À» •ûµµ ÀÚµ¿À¸·Î ¸ÂÃçÁø´Ù. (ÃÖ½Å¹®¹ı, ¼Ò½º °£°áÈ­)
+		//===> ë’¤ì˜ String ì„ Â•æš³ ìë™ìœ¼ë¡œ ë§ì¶°ì§„ë‹¤. (ìµœì‹ ë¬¸ë²•, ì†ŒìŠ¤ ê°„ê²°í™”)
 		
 		new Test().method1(list);
 	}
